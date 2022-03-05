@@ -1,0 +1,49 @@
+<div class="fbi"><img src="https://abload.de/img/fbiteamdqj6g.gif">
+  <div class="fbi-ueber">criminal minds</div>
+  <div class="fbi-body"> <div class="fbi-one">
+<input id="minds1" name="fbi" type="radio" checked/>
+    <label for="minds1"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds2" name="fbi" type="radio"/>
+       <label for="minds2"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds3" name="fbi" type="radio"/>
+       <label for="minds3"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds4" name="fbi" type="radio"/>
+       <label for="minds4"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds5" name="fbi" type="radio"/>
+       <label for="minds5"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds6" name="fbi" type="radio"/>
+       <label for="minds6"><img src="https://placehold.co/60x60" /></label>
+    <input id="minds7" name="fbi" type="radio"/>
+       <label for="minds7"><img src="https://placehold.co/60x60" /></label>
+    </div>
+    <div class="fbi-two">
+      <div id="mcon1" class="min">Content 1</div>
+     <div id="mcon2" class="min">Content 2</div>
+      <div id="mcon3" class="min">Content 3</div>
+      <div id="mcon4" class="min">Content 4</div>
+      <div id="mcon5" class="min">Content 5</div>
+      <div id="mcon6" class="min">Content 6</div>
+      <div id="mcon7" class="min">Content 7</div>
+</div></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@200&display=swap" rel="stylesheet">
+<style type="text/css"> /**/ .fbi {margin: 0 auto; background: #1c1c1c; width:600px; height:800px; border:3px solid #9c9c9c;}/*
+ */ .fbi-one input[type=radio] {display:none;}/* 
+*/ .fbi .fbi-ueber {font: 500 75px/14px 'Bebas Neue', cursive; text-align: justify; letter-spacing: 1.5px; padding: 2px; text-align: center; color:#e1e1e1; margin-top:-90px; padding-bottom:80px;}/* 
+*/ .fbi .fbi-body {display: flex; flex-direction: row;}/*
+*/ .fbi .fbi-one {display: flex; flex-direction: column; justify-content : space-between; width:60px; padding: 10px; height:520px;}/*
+  */ .fbi .fbi-two {display: flex; align-items : center; justify-content : center; padding: 10px; height:520px; width:100%;}/*
+*/ .fbi label {background: #9c9c9c; padding: 4px; width: 60px; height: 60px;}/*  
+*/ .fbi .min {display:none; font: 500 12px/15px 'Karla', sans-serif; text-align: justify; color:#e1e1e1;}/* 
+*/ .fbi .fbi-one [id^="minds"]:checked + label {background: #2e429b;} /*
+   */
+#minds1:checked ~ #mcon1, 
+#minds2:checked ~ #mcon2, 
+#minds3:checked ~ #mcon3, 
+#minds4:checked ~ #mcon4,
+#minds5:checked ~ #mcon5, 
+#minds6:checked ~ #mcon6,   
+#minds7:checked ~ #mcon7 {display:block;}/* 
+</style>
+
